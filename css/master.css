@@ -1,0 +1,112 @@
+body{
+  color: #3c4858;
+}
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar{
+  background-color: #5078bA;
+}
+.btn.btn-outline-secondary:hover{
+  background-color: #5078bA;
+}
+.display-4{
+  font-size: 2.2rem;
+}
+.list-group-item{
+  background-color: #e9ecef;
+}
+.card_description{
+  font-weight: normal;
+  color: black;
+}
+.btn{
+ border-radius: 1.25rem;
+ width: 100px;
+ background-color: #5078bA;
+ border-color: #5078bA;
+}
+#fld_search{
+ width: 25vw;
+}
+.nav-item{
+ padding-right: 10px;
+}
+ul.navbar-nav{
+  padding-left: 25%;
+}
+#btn_sign_up{
+  margin-right: 10vw;
+}
+hr{
+  border-width: medium;
+  border-color: #5078bA;
+}
+.card-header{
+  background: #5078bA;
+}
+a{
+  color: #3c4858;
+}
+a:focus, a:hover, .nav-item:hover, .nav-item:focus, h5{
+  color: #5078bA;
+}
+.nav-pills .nav-link.active{
+  line-height: 0.5em;
+  font-weight: normal;
+  background-color: #5078bA;
+}
+.ui-jqgrid{
+  font-size: 14px;
+}
+/* Grid table data columns */
+.ui-jqgrid tr.ui-row-ltr td{
+  border-right: 0px;
+  height: 30px;
+}
+/* Grid Headers */
+.ui-th-ltr, .ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr{
+  border-right: 0px;
+  text-align: left;
+}
+/* Grid Search filter input field */
+.ui-jqgrid tr.ui-search-toolbar td > input{
+  width: 100%;
+}
+/* Grid search clear x div */
+.ui-jqgrid .ui-search-table td.ui-search-clear{
+  width: 5px;
+}
+/* Grid page select box */
+.ui-jqgrid .ui-pg-input, .ui-jqgrid .ui-jqgrid-toppager .ui-pg-input{
+  height: 30px;
+}
+/* Grid column list select box */
+.ui-jqgrid .ui-pg-selbox, .ui-jqgrid .ui-jqgrid-toppager .ui-pg-selbox{
+  height: 30px;
+}
+.ui-search-clear a {
+  background: #5078bA;
+  color: #fff !important;
+  /* padding: 0px 0px; */
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.main-panel{
+  background-color: #5078bA;
+}
+.nav-pills .nav-link{
+  padding: .2rem 1rem;
+}
+.btn-dark{
+  width: -webkit-max-content;
+}
+.nav-item .active{
+  background-color: #5078bA;
+}

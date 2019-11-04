@@ -1,0 +1,8 @@
+RewriteEngine ON
+RewriteRule ^about?$ about.php
+RewriteRule ^home?$ index.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^sign-in?$ login.php
+RewriteRule ^sign-up?$ register.php
+
+ErrorDocument 404 404.php

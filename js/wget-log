@@ -1,0 +1,11 @@
+--2019-04-20 14:27:49--  https://github.com/elastic/elasticsearch/blob/master/docs/src/test/resources/accounts.json
+Resolving github.com (github.com)... 140.82.118.4, 140.82.118.3
+Connecting to github.com (github.com)|140.82.118.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'accounts.json'
+
+accounts.json                                          [                          <=>                                                                                  ]   2.13M   368KB/s    in 7.3s    
+
+2019-04-22 15:24:53 (300 KB/s) - Read error at byte 2232238 (Success).Retrying.
+

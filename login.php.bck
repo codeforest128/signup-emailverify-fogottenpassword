@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Login</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/master.css">
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/popper.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/tooltip.min.js"></script>
+      <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script type="text/javascript" src="js/index_helper.js"></script>
+  </head>
+  <body>
+    <!-- Main page container start -->
+    <div class="container-fluid">
+      <!-- Top navigation bar start -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.php">KD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(Current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Contact </a>
+            </li>
+            <li class="nav-item">
+                <input class="form-control mr-sm-2" type="search" id="fld_search" placeholder="Enter search criteria here" aria-label="Search">
+            </li>
+            <li class="nav-item">
+              <button type="submit" id="btn_search" class="btn btn-dark">Search</button>
+            </li>
+          </ul>
+        </div>
+          <!-- Login starts -->
+          <form class="form-inline my-2 my-lg-0" action="login.php" method="post" id="frm_search">
+            <button class="btn btn-dark" type="submit" name="btn_login">Login</button>
+          </form>
+          <!-- Login ends here -->
+        </div>
+      </nav>
+      <!-- Top navigation bar ends here -->
+      <!-- Grids container start -->
+      <div class="row justify-content-center">
+        <!-- Left grid starts here -->
+        <div class="col">
+
+        </div>
+        <!-- Left grid ends her -->
+        <!-- Center Grid start -->
+        <div class="col-6">
+          <!-- Blank spaces -->
+          <div class="row mt-5"></div>
+          <div class="row mt-5"></div>
+          <!-- User login form start -->
+          <div class="jumbotron">
+            <h1 class="display-4">Admin Login</h1>
+            <hr class="my-4">
+            <form class="" action="verify_captcha.php" method="POST">
+              <div class="form-group">
+                <input type="email" class="form-control" id="txt_email" aria-describedby="emailHelp" placeholder="Enter user email" value="">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="txt_pwd" placeholder="Enter password">
+              </div>
+              <!-- start of reCAPTCHA -->
+              <div class="g-recaptcha" data-sitekey="6LcOAZ4UAAAAAPM5ZbTRD9kMLZieub4lU97umQZx"></div>
+              <!-- End of reCAPTCHA  -->
+              <button type="submit" id="btn_sign_in" class="btn btn-outline-secondary">Sign in</button>
+              <button type="button" id="btn_forgot_pwd" class="btn btn-outline-secondary">Forgot Password</button>
+            </form>
+          </div>
+          <!-- User login form ends here -->
+        </div>
+        <!-- Center grid ends here -->
+        <!-- Right grid starts here -->
+        <div class="col">
+
+        </div>
+        <!-- Right grid ends here -->
+      </div>
+      <!-- Grids container ends -->
+    </div>
+    <!-- Main page container ends -->
+  </body>
+</html>
